@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<ul>
+    <li>
+        <div class="headerli"><div class="date">11 Июня, 2024</div><a href="index.html" class="logout">Logout</a></div>
+        <textarea class="autoresize" oninput="autoResize(this)" rows="1" placeholder="Как прошел день?" autofocus></textarea>
+        <script>
+            function autoResize(elem) {
+                elem.style.height = 'auto';
+                elem.style.height = (elem.scrollHeight-4) + 'px';
+            }
+            </script>
+        <div class="line">---</div>
+    </li>
+    <li>
+        <div class="date">10 Июня, 2024</div>
+        <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="line">---</div>
+    </li>
+    <li>
+        <div class="date">9 Июня, 2024</div>
+        <div class="text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="line">---</div>
+    </li>
+    <li>
+        <div class="date">8 Июня, 2024</div>
+        <div class="textnone">Нет записей</div>
+        <div class="line">---</div>
+    </li>
+    <li>
+        <div class="date">7 Июня, 2024</div>
+        <div class="textnone">Нет записей</div>
+        <div class="line">---</div>
+    </li>
+</ul>
+
+    </body>
+</html>
