@@ -48,6 +48,9 @@ margin: 0;
 .text{
     margin-bottom: 6px;
 }
+.line{
+    padding: 0;
+    margin: 0;}
 ::placeholder { /* Most modern browsers support this now. */
     color: #adb5bd;
  }
