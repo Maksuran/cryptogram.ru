@@ -42,10 +42,11 @@ padding: 0px 0px 2px 0px;
 margin: 0;
   }
 .textnone{
-    color: #212529;
-}
-.textnone{
     color: #adb5bd;
+    margin-bottom: 6px;
+}
+.text{
+    margin-bottom: 6px;
 }
 ::placeholder { /* Most modern browsers support this now. */
     color: #adb5bd;
